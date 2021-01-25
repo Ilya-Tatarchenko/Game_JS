@@ -1,0 +1,60 @@
+body{
+    background-image: url(../Advance_1/img/bkg4.jpg);
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.health_block{
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.hunter_health h1, .monster_health h1{
+    font-weight: 800;
+    color: white;
+}
+
+.attack_block{
+    margin-top: 430px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.attack_block button{
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 180px;
+}
+
+.fighter_abilities{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.fighter_abilities button{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.champ_abilities{
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+}
+
+.monster_abilities{
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+}
